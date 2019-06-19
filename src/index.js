@@ -1,5 +1,8 @@
-import React from 'react';
-import Routes from './routes';
+import React from "react";
+import Routes from "./routes";
+
+// configurações da statusbar do telefone
+import "./config/StatusBarConfig";
 
 /*
  * Quando não for preciso usar nenhuma propriedade do Component do React, então
@@ -7,7 +10,7 @@ import Routes from './routes';
  * com o retorno desejado e exportar esta função, como nesse exemplo
  */
 const App = function() {
-    return <Routes />;
+  return <Routes />;
 };
 
 export default App;
